@@ -151,7 +151,7 @@
 		115560EE27012F7300A8F818 /* WidgetOpenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115560EB27012EE100A8F818 /* WidgetOpenPage.swift */; };
 		115560F227012FE100A8F818 /* WidgetOpenPageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115560EF27012F8100A8F818 /* WidgetOpenPageProvider.swift */; };
 		1155DD09250F4100003405C0 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155DD08250F4100003405C0 /* ShareViewController.swift */; };
-		1155DD10250F4101003405C0 /* HomeAssistant-Extensions-Share.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1155DD06250F4100003405C0 /* HomeAssistant-Extensions-Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1155DD10250F4101003405C0 /* HomeAssistant-Extensions-Share.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1155DD06250F4100003405C0 /* HomeAssistant-Extensions-Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1155DD1E250F446F003405C0 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D891720E0A85200D4F28D /* Shared.framework */; };
 		1158D6282511DA68008C0C9F /* ManualPodLicenses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1158D6272511DA67008C0C9F /* ManualPodLicenses.plist */; };
 		115AD72D267C57DA0090B243 /* FocusSensor.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AD72C267C57DA0090B243 /* FocusSensor.test.swift */; };
@@ -193,7 +193,7 @@
 		1171506D24DFCDE60065E874 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1171506C24DFCDE60065E874 /* SwiftUI.framework */; };
 		1171507024DFCDE60065E874 /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171506F24DFCDE60065E874 /* Widgets.swift */; };
 		1171507224DFCDEE0065E874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1171507124DFCDEE0065E874 /* Assets.xcassets */; };
-		1171507624DFCDEE0065E874 /* HomeAssistant-Extensions-Widgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1171506924DFCDE60065E874 /* HomeAssistant-Extensions-Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1171507624DFCDEE0065E874 /* HomeAssistant-Extensions-Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1171506924DFCDE60065E874 /* HomeAssistant-Extensions-Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1171507B24DFCE0D0065E874 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D891720E0A85200D4F28D /* Shared.framework */; };
 		1171508124DFCEC50065E874 /* WidgetActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171508024DFCEC50065E874 /* WidgetActions.swift */; };
 		117318AB25199E1A0013E010 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117318AA25199E1A0013E010 /* AppKit.framework */; };
@@ -246,7 +246,6 @@
 		119385A7249E9F930097F497 /* StorageSensor.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119385A6249E9F930097F497 /* StorageSensor.test.swift */; };
 		11948E8924DA5D50006F5657 /* InfoLabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11948E8824DA5D50006F5657 /* InfoLabelRow.swift */; };
 		1194B4162519BEE900AA01C3 /* MacBridgeNetworkConnectivityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1194B4152519BEE900AA01C3 /* MacBridgeNetworkConnectivityImpl.swift */; };
-		119A172524D74DA800D1B66D /* HomeAssistant-WatchExtension-Watch.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6CC5D8E2159D10E00833E5D /* HomeAssistant-WatchExtension-Watch.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		119A7DF32529761800D7000D /* CLKComplication+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B14B215B1E86003DE2DD /* CLKComplication+Strings.swift */; };
 		119A7E0E2529769A00D7000D /* UIImageView+UIActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF8BC0221C890600370A59 /* UIImageView+UIActivityIndicator.swift */; };
 		119A7E0F2529769A00D7000D /* UIImageView+UIActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF8BC0221C890600370A59 /* UIImageView+UIActivityIndicator.swift */; };
@@ -340,7 +339,7 @@
 		11B63B0F297A19DC00D908ED /* MatterSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B63B0E297A19DC00D908ED /* MatterSupport.framework */; platformFilter = ios; settings = {ATTRIBUTES = (Weak, ); }; };
 		11B6774D28303D35006E9B1A /* SecurityExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6774C28303D35006E9B1A /* SecurityExceptions.swift */; };
 		11B6774E28303D35006E9B1A /* SecurityExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6774C28303D35006E9B1A /* SecurityExceptions.swift */; };
-		11B6B5822948F8E100B8B552 /* HomeAssistant-Extensions-Matter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11B6B57B2948F8E100B8B552 /* HomeAssistant-Extensions-Matter.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11B6B5822948F8E100B8B552 /* HomeAssistant-Extensions-Matter.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 11B6B57B2948F8E100B8B552 /* HomeAssistant-Extensions-Matter.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11B6B58C2948FB4B00B8B552 /* MatterRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B58A2948FB4B00B8B552 /* MatterRequestHandler.swift */; };
 		11B6B58E2949002000B8B552 /* HATypedRequest+Matter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B58D2949002000B8B552 /* HATypedRequest+Matter.swift */; };
 		11B6B592294917E800B8B552 /* MatterWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B5902949178700B8B552 /* MatterWrapper.swift */; };
@@ -355,7 +354,7 @@
 		11B7FD752493225200E60ED9 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7FD732493225200E60ED9 /* BackgroundTask.swift */; };
 		11B7FD772493232400E60ED9 /* BackgroundTask.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7FD762493232400E60ED9 /* BackgroundTask.test.swift */; };
 		11B9290B266F145000786588 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B9290A266F145000786588 /* NetworkExtension.framework */; };
-		11B92913266F145000786588 /* HomeAssistant-Extensions-PushProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11B92909266F145000786588 /* HomeAssistant-Extensions-PushProvider.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11B92913266F145000786588 /* HomeAssistant-Extensions-PushProvider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 11B92909266F145000786588 /* HomeAssistant-Extensions-PushProvider.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11B9297E266F15B500786588 /* PushProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9296B266F15A800786588 /* PushProvider.swift */; };
 		11B92A5B266F17AA00786588 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D891720E0A85200D4F28D /* Shared.framework */; };
 		11B92AF2266F23DA00786588 /* NotificationManagerLocalPushInterfaceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92A7F266F23CD00786588 /* NotificationManagerLocalPushInterfaceExtension.swift */; };
@@ -998,7 +997,7 @@
 		B627CB091D83C87B0057173E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B627CB081D83C87B0057173E /* UserNotifications.framework */; };
 		B627CB0B1D83C87B0057173E /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B627CB0A1D83C87B0057173E /* UserNotificationsUI.framework */; };
 		B627CB0E1D83C87B0057173E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B627CB0D1D83C87B0057173E /* NotificationViewController.swift */; };
-		B627CB151D83C87B0057173E /* HomeAssistant-Extensions-NotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B627CB071D83C87B0057173E /* HomeAssistant-Extensions-NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B627CB151D83C87B0057173E /* HomeAssistant-Extensions-NotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B627CB071D83C87B0057173E /* HomeAssistant-Extensions-NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B62817F2221D6CF4000BA86A /* Reachability+NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62817F1221D6CF4000BA86A /* Reachability+NetworkType.swift */; };
 		B62CD2A5225B099D008DF3C5 /* WebhookSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CD2A4225B099C008DF3C5 /* WebhookSensor.swift */; };
 		B62CD2A6225B099D008DF3C5 /* WebhookSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CD2A4225B099C008DF3C5 /* WebhookSensor.swift */; };
@@ -1026,7 +1025,7 @@
 		B661FC7E226C87BB00E541DD /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = B661FC7D226C87BB00E541DD /* home.json */; };
 		B661FC88226D478300E541DD /* OnboardingScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661FC87226D478300E541DD /* OnboardingScanningViewController.swift */; };
 		B66C58A8215086F0004AB261 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C58A7215086F0004AB261 /* IntentHandler.swift */; };
-		B66C58AC215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B66C58A5215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B66C58AC215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B66C58A5215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B672333E225DB68B0031D629 /* WebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672333D225DB68B0031D629 /* WebSocketMessage.swift */; };
 		B672333F225DB68B0031D629 /* WebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672333D225DB68B0031D629 /* WebSocketMessage.swift */; };
 		B6723341225DB82E0031D629 /* KeyedDecodingContainer+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6723340225DB82E0031D629 /* KeyedDecodingContainer+JSON.swift */; };
@@ -1086,7 +1085,7 @@
 		B6A258482232539900ADD202 /* WebhookUpdateLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A258472232539900ADD202 /* WebhookUpdateLocation.swift */; };
 		B6A258492232539900ADD202 /* WebhookUpdateLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A258472232539900ADD202 /* WebhookUpdateLocation.swift */; };
 		B6AAD7A41D827DD40090B220 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AAD7A31D827DD40090B220 /* NotificationService.swift */; };
-		B6AAD7A81D827DD40090B220 /* HomeAssistant-Extensions-NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6AAD7A11D827DD40090B220 /* HomeAssistant-Extensions-NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6AAD7A81D827DD40090B220 /* HomeAssistant-Extensions-NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B6AAD7A11D827DD40090B220 /* HomeAssistant-Extensions-NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B6B2E6A5216ACE4400D39A26 /* ActionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B2E6A4216ACE4400D39A26 /* ActionConfigurator.swift */; };
 		B6B6B14A215B137C003DE2DD /* ComplicationEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B149215B137C003DE2DD /* ComplicationEditViewController.swift */; };
 		B6B74CB6228397D100D58A68 /* WatchHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D6B1F2227A2EA009D8B90 /* WatchHelpers.swift */; };
@@ -1211,13 +1210,6 @@
 			remoteGlobalIDString = D03D891620E0A85200D4F28D;
 			remoteInfo = "Shared-iOS";
 		};
-		119A172624D74DA800D1B66D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6CC5D8D2159D10E00833E5D;
-			remoteInfo = WatchAppExtension;
-		};
 		11A31C92252128B900D50A78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
@@ -1260,6 +1252,13 @@
 			remoteGlobalIDString = 11DE9D8225B6103C0081C0ED;
 			remoteInfo = Launcher;
 		};
+		AED5F96C2D223BAB00BEB8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B67CE82322200D420034C1D0;
+			remoteInfo = "Shared-watchOS";
+		};
 		B627CB131D83C87B0057173E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
@@ -1287,13 +1286,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B66C58A4215086F0004AB261;
 			remoteInfo = Intents;
-		};
-		B67CE82922200D420034C1D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B657A8DE1CA646EB00121384 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B67CE82322200D420034C1D0;
-			remoteInfo = "Shared-watchOS";
 		};
 		B6AAD7A61D827DD40090B220 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1344,17 +1336,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		119A172824D74DA800D1B66D /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				119A172524D74DA800D1B66D /* HomeAssistant-WatchExtension-Watch.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		11A31CA1252128C200D50A78 /* Embed Plugins */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1388,21 +1369,21 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6AAD7AC1D827DD40090B220 /* Embed App Extensions */ = {
+		B6AAD7AC1D827DD40090B220 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1155DD10250F4101003405C0 /* HomeAssistant-Extensions-Share.appex in Embed App Extensions */,
-				B6AAD7A81D827DD40090B220 /* HomeAssistant-Extensions-NotificationService.appex in Embed App Extensions */,
-				11B92913266F145000786588 /* HomeAssistant-Extensions-PushProvider.appex in Embed App Extensions */,
-				B627CB151D83C87B0057173E /* HomeAssistant-Extensions-NotificationContent.appex in Embed App Extensions */,
-				1171507624DFCDEE0065E874 /* HomeAssistant-Extensions-Widgets.appex in Embed App Extensions */,
-				11B6B5822948F8E100B8B552 /* HomeAssistant-Extensions-Matter.appex in Embed App Extensions */,
-				B66C58AC215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex in Embed App Extensions */,
+				1155DD10250F4101003405C0 /* HomeAssistant-Extensions-Share.appex in Embed Foundation Extensions */,
+				B6AAD7A81D827DD40090B220 /* HomeAssistant-Extensions-NotificationService.appex in Embed Foundation Extensions */,
+				11B92913266F145000786588 /* HomeAssistant-Extensions-PushProvider.appex in Embed Foundation Extensions */,
+				B627CB151D83C87B0057173E /* HomeAssistant-Extensions-NotificationContent.appex in Embed Foundation Extensions */,
+				1171507624DFCDEE0065E874 /* HomeAssistant-Extensions-Widgets.appex in Embed Foundation Extensions */,
+				11B6B5822948F8E100B8B552 /* HomeAssistant-Extensions-Matter.appex in Embed Foundation Extensions */,
+				B66C58AC215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B6CC5DA62159D10F00833E5D /* Embed Watch Content */ = {
@@ -2471,7 +2452,6 @@
 		B6CC5D852159D10D00833E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		B6CC5D872159D10E00833E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6CC5D892159D10E00833E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6CC5D8E2159D10E00833E5D /* HomeAssistant-WatchExtension-Watch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HomeAssistant-WatchExtension-Watch.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CC5D952159D10E00833E5D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		B6CC5D972159D10E00833E5D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		B6CC5D992159D10F00833E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -2627,6 +2607,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368048FC64829A4E4B82B631 /* Pods_watchOS_WatchExtension_Watch.framework in Frameworks */,
+				B67CE82B22200D420034C1D0 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2694,15 +2676,6 @@
 				1112EA93271B78690038BBFC /* UserNotifications.framework in Frameworks */,
 				D03D893420E0A8FE00D4F28D /* Shared.framework in Frameworks */,
 				FD5FEB304713F1E6BFE498DC /* Pods_iOS_Extensions_NotificationService.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6CC5D8B2159D10E00833E5D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B67CE82B22200D420034C1D0 /* Shared.framework in Frameworks */,
-				368048FC64829A4E4B82B631 /* Pods_watchOS_WatchExtension_Watch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4651,7 +4624,6 @@
 				D03D894220E0BC1800D4F28D /* HomeAssistant-Tests-Shared.xctest */,
 				B66C58A5215086F0004AB261 /* HomeAssistant-Extensions-Intents.appex */,
 				B6CC5D822159D10D00833E5D /* HomeAssistant-WatchApp.app */,
-				B6CC5D8E2159D10E00833E5D /* HomeAssistant-WatchExtension-Watch.appex */,
 				B67CE82422200D420034C1D0 /* Shared.framework */,
 				1171506924DFCDE60065E874 /* HomeAssistant-Extensions-Widgets.appex */,
 				1155DD06250F4100003405C0 /* HomeAssistant-Extensions-Share.appex */,
@@ -5393,7 +5365,7 @@
 				B657A8E21CA646EB00121384 /* Sources */,
 				B657A8E31CA646EB00121384 /* Frameworks */,
 				B657A8E41CA646EB00121384 /* Resources */,
-				B6AAD7AC1D827DD40090B220 /* Embed App Extensions */,
+				B6AAD7AC1D827DD40090B220 /* Embed Foundation Extensions */,
 				B6CC5DA62159D10F00833E5D /* Embed Watch Content */,
 				11DE9FBD25B6184E0081C0ED /* Embed Mac Launcher */,
 				9C08D123229F187E001B4F73 /* Enable Special Entitlements */,
@@ -5525,38 +5497,20 @@
 				11A67358268D9E7B00D1AFD4 /* Fix Xcode 12.5+ Dependency Issues */,
 				B6CC5D802159D10D00833E5D /* Resources */,
 				93C44648FF2FAE89B2ED8FC9 /* Frameworks */,
-				119A172824D74DA800D1B66D /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				119A172724D74DA800D1B66D /* PBXTargetDependency */,
-			);
-			name = WatchApp;
-			productName = WatchApp;
-			productReference = B6CC5D822159D10D00833E5D /* HomeAssistant-WatchApp.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		B6CC5D8D2159D10E00833E5D /* WatchExtension-Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6CC5DA32159D10F00833E5D /* Build configuration list for PBXNativeTarget "WatchExtension-Watch" */;
-			buildPhases = (
 				59C2CF28F00F34975C1AC68B /* [CP] Check Pods Manifest.lock */,
 				B6CC5D8A2159D10E00833E5D /* Sources */,
-				B6CC5D8B2159D10E00833E5D /* Frameworks */,
-				B6CC5D8C2159D10E00833E5D /* Resources */,
 				F3E3FC23B4E5B348B92D05F4 /* [CP] Embed Pods Frameworks */,
 				B61DA2A7221E8D8F00AADEDD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B67CE82A22200D420034C1D0 /* PBXTargetDependency */,
+				AED5F96D2D223BAB00BEB8E4 /* PBXTargetDependency */,
 			);
-			name = "WatchExtension-Watch";
-			productName = "WatchApp Extension";
-			productReference = B6CC5D8E2159D10E00833E5D /* HomeAssistant-WatchExtension-Watch.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = WatchApp;
+			productName = WatchApp;
+			productReference = B6CC5D822159D10D00833E5D /* HomeAssistant-WatchApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 		D03D891620E0A85200D4F28D /* Shared-iOS */ = {
 			isa = PBXNativeTarget;
@@ -5609,9 +5563,10 @@
 		B657A8DE1CA646EB00121384 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1620;
 				ORGANIZATIONNAME = "Home Assistant";
 				TargetAttributes = {
 					111711E425B29ACB003C149E = {
@@ -5751,20 +5706,6 @@
 							};
 						};
 					};
-					B6CC5D8D2159D10E00833E5D = {
-						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = QMQYCKL255;
-						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-							com.apple.Keychain = {
-								enabled = 0;
-							};
-						};
-					};
 					D03D891620E0A85200D4F28D = {
 						CreatedOnToolsVersion = 9.4.1;
 						DevelopmentTeam = QMQYCKL255;
@@ -5842,7 +5783,6 @@
 				11B92908266F145000786588 /* Extensions-PushProvider */,
 				1155DD05250F4100003405C0 /* Extensions-Share */,
 				1171506824DFCDE60065E874 /* Extensions-Widgets */,
-				B6CC5D8D2159D10E00833E5D /* WatchExtension-Watch */,
 			);
 		};
 /* End PBXProject section */
@@ -6115,19 +6055,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6CC5D882159D10E00833E5D /* Assets.xcassets in Resources */,
-				404C79802C3491390010EB81 /* Localizable.strings in Resources */,
-				B6CC5D862159D10D00833E5D /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6CC5D8C2159D10E00833E5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 				426490732C0F1F36002155CC /* Colors.xcassets in Resources */,
-				B6CC5D9A2159D10F00833E5D /* Assets.xcassets in Resources */,
+				404C79802C3491390010EB81 /* Localizable.strings in Resources */,
 				FC8E9421FDB864726918B612 /* Pods-watchOS-WatchExtension-Watch-metadata.plist in Resources */,
 				426266422C11A6700081A818 /* SharedAssets.xcassets in Resources */,
+				B6CC5D862159D10D00833E5D /* Interface.storyboard in Resources */,
+				B6CC5D9A2159D10F00833E5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7695,11 +7628,6 @@
 			target = D03D891620E0A85200D4F28D /* Shared-iOS */;
 			targetProxy = 1171507D24DFCE0D0065E874 /* PBXContainerItemProxy */;
 		};
-		119A172724D74DA800D1B66D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6CC5D8D2159D10E00833E5D /* WatchExtension-Watch */;
-			targetProxy = 119A172624D74DA800D1B66D /* PBXContainerItemProxy */;
-		};
 		11A31C93252128B900D50A78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = maccatalyst;
@@ -7734,6 +7662,11 @@
 			target = 11DE9D8225B6103C0081C0ED /* Launcher */;
 			targetProxy = 11DE9F9725B6173D0081C0ED /* PBXContainerItemProxy */;
 		};
+		AED5F96D2D223BAB00BEB8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B67CE82322200D420034C1D0 /* Shared-watchOS */;
+			targetProxy = AED5F96C2D223BAB00BEB8E4 /* PBXContainerItemProxy */;
+		};
 		B627CB141D83C87B0057173E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B627CB061D83C87B0057173E /* Extensions-NotificationContent */;
@@ -7753,11 +7686,6 @@
 			isa = PBXTargetDependency;
 			target = B66C58A4215086F0004AB261 /* Extensions-Intents */;
 			targetProxy = B66C58AA215086F0004AB261 /* PBXContainerItemProxy */;
-		};
-		B67CE82A22200D420034C1D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B67CE82322200D420034C1D0 /* Shared-watchOS */;
-			targetProxy = B67CE82922200D420034C1D0 /* PBXContainerItemProxy */;
 		};
 		B6AAD7A71D827DD40090B220 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8069,6 +7997,7 @@
 		111711E525B29ACB003C149E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_MODULE_NAME = HomeAssistant;
 				PRODUCT_NAME = HomeAssistant;
 			};
@@ -8077,6 +8006,7 @@
 		111711E625B29ACB003C149E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_MODULE_NAME = HomeAssistant;
 				PRODUCT_NAME = HomeAssistant;
 			};
@@ -8085,6 +8015,7 @@
 		111711E725B29ACB003C149E /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_MODULE_NAME = HomeAssistant;
 				PRODUCT_NAME = HomeAssistant;
 			};
@@ -8102,6 +8033,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .ShareExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8119,6 +8051,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .ShareExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8136,6 +8069,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .ShareExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8145,6 +8079,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = R93TMF22P5;
 				INFOPLIST_FILE = Sources/MacBridge/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -8152,6 +8088,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				PROVISIONING_SUFFIX = .MacBridge;
@@ -8164,6 +8101,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = Sources/MacBridge/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -8171,6 +8109,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				PROVISIONING_SUFFIX = .MacBridge;
@@ -8183,6 +8122,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = Sources/MacBridge/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -8190,6 +8130,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				PROVISIONING_SUFFIX = .MacBridge;
@@ -8212,6 +8153,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .Widgets;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG WIDGET_EXTENSION";
@@ -8233,6 +8175,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .Widgets;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
@@ -8255,6 +8198,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .Widgets;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
@@ -8270,6 +8214,7 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
 				INFOPLIST_FILE = Sources/Extensions/Matter/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .Matter;
 				SDKROOT = iphoneos;
 			};
@@ -8283,6 +8228,7 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
 				INFOPLIST_FILE = Sources/Extensions/Matter/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .Matter;
 				SDKROOT = iphoneos;
 			};
@@ -8296,6 +8242,7 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
 				INFOPLIST_FILE = Sources/Extensions/Matter/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .Matter;
 				SDKROOT = iphoneos;
 			};
@@ -8308,6 +8255,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				INFOPLIST_FILE = Sources/Extensions/PushProvider/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .PushProvider;
 			};
 			name = Debug;
@@ -8319,6 +8267,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				INFOPLIST_FILE = Sources/Extensions/PushProvider/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .PushProvider;
 			};
 			name = Release;
@@ -8330,6 +8279,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				INFOPLIST_FILE = Sources/Extensions/PushProvider/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .PushProvider;
 			};
 			name = Beta;
@@ -8338,8 +8288,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Configuration/Entitlements/Launcher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = R93TMF22P5;
 				INFOPLIST_FILE = Sources/Launcher/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "Home Assistant Launcher";
 				PROVISIONING_SUFFIX = .Launcher;
 				SDKROOT = macosx;
@@ -8350,9 +8304,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Configuration/Entitlements/Launcher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = R93TMF22P5;
 				INFOPLIST_FILE = Sources/Launcher/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "Home Assistant Launcher";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				PROVISIONING_SUFFIX = .Launcher;
 				SDKROOT = macosx;
 			};
@@ -8362,9 +8321,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Configuration/Entitlements/Launcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Sources/Launcher/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "Home Assistant Launcher";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				PROVISIONING_SUFFIX = .Launcher;
 				SDKROOT = macosx;
 			};
@@ -8383,6 +8349,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .NotificationContentExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8401,6 +8368,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .NotificationContentExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8410,6 +8378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C4E5E25229D986B0044C8EC /* HomeAssistant.beta.xcconfig */;
 			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 			};
 			name = Beta;
 		};
@@ -8423,10 +8392,12 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/App-catalyst.entitlements";
 				ENV_URL_HANDLER = "homeassistant-beta";
 				INFOPLIST_FILE = Sources/App/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -8462,6 +8433,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Tests/App/Resources/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .HomeAssistantTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Assistant Δ.app/Home Assistant Δ";
 			};
@@ -8476,6 +8448,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .HomeAssistantUITests;
 				TEST_TARGET_NAME = HomeAssistant;
 			};
@@ -8493,6 +8466,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .APNSAttachmentService;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8511,6 +8485,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .NotificationContentExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8521,10 +8496,12 @@
 			baseConfigurationReference = F534C18A6FD4884F258341C9 /* Pods-iOS-Shared-iOS.beta.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = Sources/Shared/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -8532,6 +8509,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_MODULE_NAME = Shared;
 				PRODUCT_NAME = Shared;
@@ -8551,6 +8530,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .SharedTests;
 			};
 			name = Beta;
@@ -8568,6 +8548,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -8584,13 +8565,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "WatchIcon${BUNDLE_ID_SUFFIX}";
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ENABLE_MODULES = YES;
-				IBSC_MODULE = WatchExtension_Watch;
+				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				INFOPLIST_FILE = Sources/WatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .watchkitapp;
 				SDKROOT = watchos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/WatchApp/WatchApp-Bridging-Header.h";
@@ -8599,28 +8582,11 @@
 			};
 			name = Beta;
 		};
-		B637243921697585006B102A /* Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E00CA53EFBB621A8470C22A /* Pods-watchOS-WatchExtension-Watch.beta.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
-				INFOPLIST_FILE = Sources/Extensions/Watch/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PROVISIONING_SUFFIX = .watchkitapp.watchkitextension;
-				SDKROOT = watchos;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Beta;
-		};
 		B657A90E1CA646EB00121384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C4E5E21229D98220044C8EC /* HomeAssistant.debug.xcconfig */;
 			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 			};
 			name = Debug;
 		};
@@ -8628,6 +8594,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C4E5E22229D98530044C8EC /* HomeAssistant.release.xcconfig */;
 			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 			};
 			name = Release;
 		};
@@ -8641,10 +8608,12 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/App-catalyst.entitlements";
 				ENV_URL_HANDLER = "homeassistant-dev";
 				INFOPLIST_FILE = Sources/App/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -8684,10 +8653,12 @@
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/App-catalyst.entitlements";
 				ENV_URL_HANDLER = homeassistant;
 				INFOPLIST_FILE = Sources/App/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -8723,6 +8694,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Tests/App/Resources/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .HomeAssistantTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Assistant Δ.app/Home Assistant Δ";
 			};
@@ -8734,6 +8706,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Tests/App/Resources/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .HomeAssistantTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Assistant Δ.app/Home Assistant Δ";
 			};
@@ -8748,6 +8721,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .HomeAssistantUITests;
 				TEST_TARGET_NAME = HomeAssistant;
 			};
@@ -8762,6 +8736,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .HomeAssistantUITests;
 				TEST_TARGET_NAME = HomeAssistant;
 			};
@@ -8780,6 +8755,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -8805,6 +8781,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -8822,10 +8799,12 @@
 			baseConfigurationReference = BEE6D44D86AC3F2F3E43950D /* Pods-watchOS-Shared-watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = Sources/Shared/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -8833,6 +8812,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_MODULE_NAME = Shared;
 				PRODUCT_NAME = Shared;
@@ -8848,10 +8829,12 @@
 			baseConfigurationReference = 0194775556E59C6E64735937 /* Pods-watchOS-Shared-watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = Sources/Shared/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -8859,6 +8842,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_MODULE_NAME = Shared;
 				PRODUCT_NAME = Shared;
@@ -8874,10 +8859,12 @@
 			baseConfigurationReference = CDB131E7598C0AC03BB5B998 /* Pods-watchOS-Shared-watchOS.beta.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = Sources/Shared/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -8885,6 +8872,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_MODULE_NAME = Shared;
 				PRODUCT_NAME = Shared;
@@ -8907,6 +8896,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .APNSAttachmentService;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8924,6 +8914,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .APNSAttachmentService;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -8933,13 +8924,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "WatchIcon${BUNDLE_ID_SUFFIX}";
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ENABLE_MODULES = YES;
-				IBSC_MODULE = WatchExtension_Watch;
+				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				INFOPLIST_FILE = Sources/WatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .watchkitapp;
 				SDKROOT = watchos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/WatchApp/WatchApp-Bridging-Header.h";
@@ -8953,53 +8946,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "WatchIcon${BUNDLE_ID_SUFFIX}";
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ENABLE_MODULES = YES;
-				IBSC_MODULE = WatchExtension_Watch;
+				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				INFOPLIST_FILE = Sources/WatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .watchkitapp;
 				SDKROOT = watchos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/WatchApp/WatchApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Release;
-		};
-		B6CC5DA12159D10F00833E5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5C1EC99DF5FCB63422D279 /* Pods-watchOS-WatchExtension-Watch.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
-				INFOPLIST_FILE = Sources/Extensions/Watch/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PROVISIONING_SUFFIX = .watchkitapp.watchkitextension;
-				SDKROOT = watchos;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Debug;
-		};
-		B6CC5DA22159D10F00833E5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 755DF7AFFAA21F6CE428E998 /* Pods-watchOS-WatchExtension-Watch.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
-				INFOPLIST_FILE = Sources/Extensions/Watch/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PROVISIONING_SUFFIX = .watchkitapp.watchkitextension;
-				SDKROOT = watchos;
 				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Release;
@@ -9009,10 +8968,12 @@
 			baseConfigurationReference = 97F089744D425CAB2755F843 /* Pods-iOS-Shared-iOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = Sources/Shared/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -9020,6 +8981,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_MODULE_NAME = Shared;
 				PRODUCT_NAME = Shared;
@@ -9034,10 +8997,12 @@
 			baseConfigurationReference = C2563441A5A149C269C5F320 /* Pods-iOS-Shared-iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = Sources/Shared/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -9045,6 +9010,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_MODULE_NAME = Shared;
 				PRODUCT_NAME = Shared;
@@ -9064,6 +9031,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .SharedTests;
 			};
 			name = Debug;
@@ -9078,6 +9046,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_SUFFIX = .SharedTests;
 			};
 			name = Release;
@@ -9231,16 +9200,6 @@
 				B6AAD7AA1D827DD40090B220 /* Debug */,
 				B6AAD7AB1D827DD40090B220 /* Release */,
 				B637243321697585006B102A /* Beta */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6CC5DA32159D10F00833E5D /* Build configuration list for PBXNativeTarget "WatchExtension-Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6CC5DA12159D10F00833E5D /* Debug */,
-				B6CC5DA22159D10F00833E5D /* Release */,
-				B637243921697585006B102A /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
